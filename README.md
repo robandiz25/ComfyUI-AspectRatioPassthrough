@@ -1,5 +1,14 @@
 # Aspect Ratio Passthrough
 
+> **This repo has moved.** It's now part of **[Bert's Tools](https://github.com/robandiz25/comfyui-berts-tools)**, together with my other ComfyUI nodes. This repo is archived and won't get updates.
+>
+> Node IDs are unchanged, so existing workflows keep working. Delete this folder from `custom_nodes`, then install Bert's Tools:
+>
+> ```
+> cd ComfyUI/custom_nodes
+> git clone https://github.com/robandiz25/comfyui-berts-tools.git
+> ```
+
 A small ComfyUI custom node. It reads the aspect ratio directly off an input
 image and combines it with a megapixel target you choose, so downstream
 generation matches your source image's shape without you manually looking up
